@@ -614,6 +614,19 @@ function App() {
             onClick={() => setShowLanguageDropdown(false)}
           />
         )}
+        {/* Footer */}
+        <footer className="mt-12 text-center text-slate-500 text-xs opacity-80 select-none flex flex-col items-center gap-1">
+          <span>
+            © {new Date().getFullYear()} Task Manager — Gustavo Lazzuri
+          </span>
+          <span className="flex items-center gap-2 justify-center">
+            <span className="inline-flex items-center gap-1">
+              <span className="text-blue-400">React</span>
+              <span>+</span>
+              <span className="text-cyan-400">Tailwind</span>
+            </span>
+          </span>
+        </footer>
       </div>
     </div>
   );
