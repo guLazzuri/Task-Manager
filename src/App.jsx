@@ -12,7 +12,7 @@ import {
 // Traduções
 const translations = {
   pt: {
-    title: "Task Manager",
+    title: "Gerenciador de Tarefas",
     subtitle: "Organize sua vida com elegância",
     pending: "Pendentes",
     completed: "Concluídas",
